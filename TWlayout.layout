@@ -1,0 +1,9 @@
+schemaVersion: 3
+layoutId: TWlayout
+capturedAt: 2026-05-22T00:08:47.322944500+00:00
+lastSavedAt: 2026-05-22T00:08:47.436622600+00:00
+activeMode: offline
+matchThresholds:
+  likelySame: 80
+  uncertainMin: 40
+companionDir: TWlayout.layout.d

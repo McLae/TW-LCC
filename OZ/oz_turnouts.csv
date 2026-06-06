@@ -1,0 +1,5 @@
+System Name,User Name,State,Comment,,Inverted,Locked,,Feedback,Mode,Sensor 1,Sensor 2,Retry Automation,,Lock Mode,Decoder,Closed Speed,Thrown Speed,Forget,Query,Authoritative,Always listen
+MT02.01.82.00.00.11.00.20;02.01.82.00.00.11.00.21,Turnout control 1,Unknown,,Delete,false,false,Edit,Unknown,MONITORING,,,Off,Edit Auto,None,None,Use Global Normal,Use Global Restricted,Forget,Query,true,true
+MT02.01.82.00.00.11.00.22;02.01.82.00.00.11.00.23,Turnout control 2,Unknown,,Delete,false,false,Edit,Unknown,MONITORING,,,Off,Edit Auto,None,None,Use Global Normal,Use Global Restricted,Forget,Query,true,true
+MT02.01.82.00.00.11.00.24;02.01.82.00.00.11.00.25,Turnout control 3,Unknown,,Delete,false,false,Edit,Unknown,MONITORING,,,Off,Edit Auto,None,None,Use Global Normal,Use Global Restricted,Forget,Query,true,true
+MT02.01.82.00.00.11.00.2A;02.01.82.00.00.11.00.2B,Turnout status 2,Unknown,,Delete,false,false,Edit,Unknown,MONITORING,,,Off,Edit Auto,None,None,Use Global Normal,Use Global Restricted,Forget,Query,true,true

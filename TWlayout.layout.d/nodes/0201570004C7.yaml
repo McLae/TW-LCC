@@ -1,0 +1,7238 @@
+nodeId: 0201570004C7
+capturedAt: 2026-05-22T00:08:47.322944500+00:00
+captureStatus: complete
+missing: []
+snip:
+  userName: LCC-SL-5050-1
+  userDescription: Turnouts and Detection for T-SL area
+  manufacturerName: RR-CirKits
+  modelName: Tower-LCC
+cdiRef:
+  cacheKey: RR-CirKits_Tower-LCC_rev-C7c
+  version: rev-C7c
+  fingerprint: len:14830
+config:
+  Conditionals:
+    Logic(0):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x00002007'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002006'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.70
+          space: 253
+          offset: '0x00000A27'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00000A26'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002008'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002009'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.01.79
+          space: 253
+          offset: '0x00000A30'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00000A2F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002011'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002012'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.C6
+          space: 253
+          offset: '0x00000A39'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000A38'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000201A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000201B'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.C7
+          space: 253
+          offset: '0x00000A42'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000A41'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002023'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002024'
+      Description:
+        value: SM-SL-050050-10W CTCMode
+        space: 253
+        offset: '0x000009E0'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00000A00'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000A11'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000A22'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000A25'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000A24'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002001'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002002'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002000'
+        set false:
+          value: 02.01.57.00.04.C7.00.C1
+          space: 253
+          offset: '0x00000A09'
+        set true:
+          value: 02.01.57.00.04.C7.00.C0
+          space: 253
+          offset: '0x00000A01'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002004'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002005'
+        Trigger:
+          value: '1'
+          space: 253
+          offset: '0x00002003'
+        set false:
+          value: 02.01.57.00.04.C7.00.C3
+          space: 253
+          offset: '0x00000A1A'
+        set true:
+          value: 02.01.57.00.04.C7.00.C2
+          space: 253
+          offset: '0x00000A12'
+    Logic(1):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002071'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002070'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.C2
+          space: 253
+          offset: '0x00000A91'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000A90'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002072'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002073'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.CD
+          space: 253
+          offset: '0x00000A9A'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000A99'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000207B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000207C'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.CE
+          space: 253
+          offset: '0x00000AA3'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000AA2'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002084'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002085'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.CF
+          space: 253
+          offset: '0x00000AAC'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000AAB'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000208D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000208E'
+      Description:
+        value: SM-SL-050050-10W Logic1
+        space: 253
+        offset: '0x00000A4A'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000A6A'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x00000A7B'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000A8C'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000A8F'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000A8E'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000206B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000206C'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000206A'
+        set false:
+          value: 02.01.57.00.04.C7.00.BB
+          space: 253
+          offset: '0x00000A73'
+        set true:
+          value: 02.01.57.00.04.C7.00.BA
+          space: 253
+          offset: '0x00000A6B'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000206E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000206F'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000206D'
+        set false:
+          value: 02.01.57.00.04.C7.00.CA
+          space: 253
+          offset: '0x00000A84'
+        set true:
+          value: 02.01.57.00.04.C7.00.C9
+          space: 253
+          offset: '0x00000A7C'
+    Logic(10):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x0000242B'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x0000242A'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.0A
+          space: 253
+          offset: '0x00000E4B'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000E4A'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000242C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000242D'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.15
+          space: 253
+          offset: '0x00000E54'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000E53'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002435'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002436'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.16
+          space: 253
+          offset: '0x00000E5D'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000E5C'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000243E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000243F'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.17
+          space: 253
+          offset: '0x00000E66'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000E65'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002447'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002448'
+      Description:
+        value: SM-SL-050050-20W Logic1
+        space: 253
+        offset: '0x00000E04'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000E24'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x00000E35'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000E46'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000E49'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000E48'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002425'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002426'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002424'
+        set false:
+          value: 02.01.57.00.04.C7.00.6D
+          space: 253
+          offset: '0x00000E2D'
+        set true:
+          value: 02.01.57.00.04.C7.00.6C
+          space: 253
+          offset: '0x00000E25'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002428'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002429'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002427'
+        set false:
+          value: 02.01.57.00.04.C7.00.79
+          space: 253
+          offset: '0x00000E3E'
+        set true:
+          value: 02.01.57.00.04.C7.00.78
+          space: 253
+          offset: '0x00000E36'
+    Logic(11):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002495'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002494'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.0A
+          space: 253
+          offset: '0x00000EB5'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000EB4'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002496'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002497'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.1D
+          space: 253
+          offset: '0x00000EBE'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000EBD'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000249F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000024A0'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.1E
+          space: 253
+          offset: '0x00000EC7'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000EC6'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000024A8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000024A9'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.1F
+          space: 253
+          offset: '0x00000ED0'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000ECF'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000024B1'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000024B2'
+      Description:
+        value: SM-SL-050050-20W Logic2
+        space: 253
+        offset: '0x00000E6E'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000E8E'
+      Logic Operation:
+        value: '8'
+        space: 253
+        offset: '0x00000E9F'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000EB0'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000EB3'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000EB2'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000248F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002490'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000248E'
+        set false:
+          value: 02.01.57.00.04.C7.01.19
+          space: 253
+          offset: '0x00000E97'
+        set true:
+          value: 02.01.57.00.04.C7.01.18
+          space: 253
+          offset: '0x00000E8F'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002492'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002493'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002491'
+        set false:
+          value: 02.01.57.00.04.C7.00.A3
+          space: 253
+          offset: '0x00000EA8'
+        set true:
+          value: 02.01.57.00.04.C7.00.A2
+          space: 253
+          offset: '0x00000EA0'
+    Logic(12):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000024FF'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000024FE'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.0A
+          space: 253
+          offset: '0x00000F1F'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000F1E'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002500'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002501'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.25
+          space: 253
+          offset: '0x00000F28'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000F27'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002509'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000250A'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.26
+          space: 253
+          offset: '0x00000F31'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000F30'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002512'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002513'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.27
+          space: 253
+          offset: '0x00000F3A'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000F39'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000251B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000251C'
+      Description:
+        value: SM-SL-050050-20W Logic3
+        space: 253
+        offset: '0x00000ED8'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000EF8'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000F09'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000F1A'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000F1D'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000F1C'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000024F9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000024FA'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000024F8'
+        set false:
+          value: 02.01.57.00.04.C7.00.61
+          space: 253
+          offset: '0x00000F01'
+        set true:
+          value: 02.01.57.00.04.C7.00.60
+          space: 253
+          offset: '0x00000EF9'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000024FC'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000024FD'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000024FB'
+        set false:
+          value: 02.01.57.00.04.C7.01.23
+          space: 253
+          offset: '0x00000F12'
+        set true:
+          value: 02.01.57.00.04.C7.01.22
+          space: 253
+          offset: '0x00000F0A'
+    Logic(13):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002569'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002568'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.EC
+          space: 253
+          offset: '0x00000F89'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000F88'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000256A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000256B'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.2D
+          space: 253
+          offset: '0x00000F92'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000F91'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002573'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002574'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.2E
+          space: 253
+          offset: '0x00000F9B'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000F9A'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000257C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000257D'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.2F
+          space: 253
+          offset: '0x00000FA4'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000FA3'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002585'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002586'
+      Description:
+        value: SM-SL-050050-20W Logic4
+        space: 253
+        offset: '0x00000F42'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000F62'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x00000F73'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000F84'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000F87'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000F86'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002563'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002564'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002562'
+        set false:
+          value: 02.01.57.00.04.C7.00.61
+          space: 253
+          offset: '0x00000F6B'
+        set true:
+          value: 02.01.57.00.04.C7.00.60
+          space: 253
+          offset: '0x00000F63'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002566'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002567'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002565'
+        set false:
+          value: 02.01.57.00.04.C7.01.2B
+          space: 253
+          offset: '0x00000F7C'
+        set true:
+          value: 02.01.57.00.04.C7.01.2A
+          space: 253
+          offset: '0x00000F74'
+    Logic(14):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x000025D3'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000025D2'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.E3
+          space: 253
+          offset: '0x00000FF3'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00000FF2'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000025D4'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025D5'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.01.E6
+          space: 253
+          offset: '0x00000FFC'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00000FFB'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000025DD'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025DE'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.36
+          space: 253
+          offset: '0x00001005'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001004'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000025E6'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025E7'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.37
+          space: 253
+          offset: '0x0000100E'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000100D'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000025EF'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025F0'
+      Description:
+        value: SM-SL-050050-20W Logic5
+        space: 253
+        offset: '0x00000FAC'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00000FCC'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x00000FDD'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000FEE'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000FF1'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000FF0'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000025CD'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025CE'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000025CC'
+        set false:
+          value: 02.01.57.11.00.06.04.BA
+          space: 253
+          offset: '0x00000FD5'
+        set true:
+          value: 02.01.57.11.00.06.04.B9
+          space: 253
+          offset: '0x00000FCD'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000025D0'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000025D1'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000025CF'
+        set false:
+          value: 02.01.57.11.00.06.04.C3
+          space: 253
+          offset: '0x00000FE6'
+        set true:
+          value: 02.01.57.11.00.06.04.C2
+          space: 253
+          offset: '0x00000FDE'
+    Logic(15):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x0000263D'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x0000263C'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.02.C0
+          space: 253
+          offset: '0x0000105D'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x0000105C'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000263E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000263F'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.02.C9
+          space: 253
+          offset: '0x00001066'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00001065'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002647'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002648'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.3E
+          space: 253
+          offset: '0x0000106F'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000106E'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002650'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002651'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.3F
+          space: 253
+          offset: '0x00001078'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001077'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002659'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000265A'
+      Description:
+        value: SM-SL-050050-30W CTCMode
+        space: 253
+        offset: '0x00001016'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00001036'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00001047'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001058'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x0000105B'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000105A'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002637'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002638'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002636'
+        set false:
+          value: 02.01.57.00.04.C7.00.C1
+          space: 253
+          offset: '0x0000103F'
+        set true:
+          value: 02.01.57.00.04.C7.00.C0
+          space: 253
+          offset: '0x00001037'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000263A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000263B'
+        Trigger:
+          value: '1'
+          space: 253
+          offset: '0x00002639'
+        set false:
+          value: 02.01.57.00.04.C7.01.3B
+          space: 253
+          offset: '0x00001050'
+        set true:
+          value: 02.01.57.00.04.C7.01.3A
+          space: 253
+          offset: '0x00001048'
+    Logic(16):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000026A7'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000026A6'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.3A
+          space: 253
+          offset: '0x000010C7'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x000010C6'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000026A8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026A9'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.45
+          space: 253
+          offset: '0x000010D0'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000010CF'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000026B1'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026B2'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.46
+          space: 253
+          offset: '0x000010D9'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000010D8'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000026BA'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026BB'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.47
+          space: 253
+          offset: '0x000010E2'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000010E1'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000026C3'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026C4'
+      Description:
+        value: SM-SL-050050-30W Logic1
+        space: 253
+        offset: '0x00001080'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x000010A0'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x000010B1'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000010C2'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000010C5'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000010C4'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000026A1'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026A2'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000026A0'
+        set false:
+          value: 02.01.57.00.04.C7.00.A9
+          space: 253
+          offset: '0x000010A9'
+        set true:
+          value: 02.01.57.00.04.C7.00.A8
+          space: 253
+          offset: '0x000010A1'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000026A4'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000026A5'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000026A3'
+        set false:
+          value: 02.01.57.00.04.C7.00.AF
+          space: 253
+          offset: '0x000010BA'
+        set true:
+          value: 02.01.57.00.04.C7.00.AE
+          space: 253
+          offset: '0x000010B2'
+    Logic(17):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002711'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002710'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.3A
+          space: 253
+          offset: '0x00001131'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00001130'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002712'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002713'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.4D
+          space: 253
+          offset: '0x0000113A'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001139'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000271B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000271C'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.4E
+          space: 253
+          offset: '0x00001143'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001142'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002724'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002725'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.4F
+          space: 253
+          offset: '0x0000114C'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000114B'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000272D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000272E'
+      Description:
+        value: SM-SL-050050-30W Logic2
+        space: 253
+        offset: '0x000010EA'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x0000110A'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x0000111B'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000112C'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x0000112F'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000112E'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000270B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000270C'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000270A'
+        set false:
+          value: 02.01.57.10.03.C5.01.AA
+          space: 253
+          offset: '0x00001113'
+        set true:
+          value: 02.01.57.10.03.C5.01.A9
+          space: 253
+          offset: '0x0000110B'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000270E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000270F'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000270D'
+        set false:
+          value: 02.01.57.00.04.C7.01.4B
+          space: 253
+          offset: '0x00001124'
+        set true:
+          value: 02.01.57.00.04.C7.01.4A
+          space: 253
+          offset: '0x0000111C'
+    Logic(18):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x0000277B'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x0000277A'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.02.CC
+          space: 253
+          offset: '0x0000119B'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x0000119A'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000277C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000277D'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.55
+          space: 253
+          offset: '0x000011A4'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000011A3'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002785'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002786'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.56
+          space: 253
+          offset: '0x000011AD'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000011AC'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000278E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000278F'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.57
+          space: 253
+          offset: '0x000011B6'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000011B5'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002797'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002798'
+      Description:
+        value: SM-SL-050050-30W Logic3
+        space: 253
+        offset: '0x00001154'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00001174'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x00001185'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001196'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001199'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001198'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002775'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002776'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002774'
+        set false:
+          value: 02.01.57.10.03.C5.01.B6
+          space: 253
+          offset: '0x0000117D'
+        set true:
+          value: 02.01.57.10.03.C5.01.B5
+          space: 253
+          offset: '0x00001175'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002778'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002779'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002777'
+        set false:
+          value: 02.01.57.00.04.C7.01.53
+          space: 253
+          offset: '0x0000118E'
+        set true:
+          value: 02.01.57.00.04.C7.01.52
+          space: 253
+          offset: '0x00001186'
+    Logic(19):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x000027E5'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000027E4'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.02.C3
+          space: 253
+          offset: '0x00001205'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00001204'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000027E6'
+        Track Speed:
+          value: '5'
+          space: 253
+          offset: '0x000027E7'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.02.C6
+          space: 253
+          offset: '0x0000120E'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x0000120D'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000027EF'
+        Track Speed:
+          value: '7'
+          space: 253
+          offset: '0x000027F0'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.5E
+          space: 253
+          offset: '0x00001217'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001216'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000027F8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000027F9'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.5F
+          space: 253
+          offset: '0x00001220'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000121F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002801'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002802'
+      Description:
+        value: SM-SL-050050-30W Logic4
+        space: 253
+        offset: '0x000011BE'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x000011DE'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x000011EF'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001200'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001203'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001202'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000027DF'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000027E0'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000027DE'
+        set false:
+          value: 02.01.57.10.03.C5.01.AD
+          space: 253
+          offset: '0x000011E7'
+        set true:
+          value: 02.01.57.10.03.C5.01.AC
+          space: 253
+          offset: '0x000011DF'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000027E2'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000027E3'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000027E1'
+        set false:
+          value: 02.01.57.00.04.C7.01.5B
+          space: 253
+          offset: '0x000011F8'
+        set true:
+          value: 02.01.57.00.04.C7.01.5A
+          space: 253
+          offset: '0x000011F0'
+    Logic(2):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000020DB'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000020DA'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.C2
+          space: 253
+          offset: '0x00000AFB'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000AFA'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000020DC'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020DD'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.D5
+          space: 253
+          offset: '0x00000B04'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B03'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000020E5'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020E6'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.D6
+          space: 253
+          offset: '0x00000B0D'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B0C'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000020EE'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020EF'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.D7
+          space: 253
+          offset: '0x00000B16'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B15'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000020F7'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020F8'
+      Description:
+        value: SM-SL-050050-10W Logic2
+        space: 253
+        offset: '0x00000AB4'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000AD4'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000AE5'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000AF6'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000AF9'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000AF8'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000020D5'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020D6'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000020D4'
+        set false:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00000ADD'
+        set true:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x00000AD5'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000020D8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000020D9'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000020D7'
+        set false:
+          value: 02.01.57.00.04.C7.00.A3
+          space: 253
+          offset: '0x00000AEE'
+        set true:
+          value: 02.01.57.00.04.C7.00.A2
+          space: 253
+          offset: '0x00000AE6'
+    Logic(20):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x0000284F'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x0000284E'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.64
+          space: 253
+          offset: '0x0000126F'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000126E'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002850'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002851'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.65
+          space: 253
+          offset: '0x00001278'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001277'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002859'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000285A'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.66
+          space: 253
+          offset: '0x00001281'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001280'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002862'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002863'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.67
+          space: 253
+          offset: '0x0000128A'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001289'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000286B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000286C'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x00001228'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x00001248'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00001259'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000126A'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x0000126D'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000126C'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002849'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000284A'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002848'
+        set false:
+          value: 02.01.57.00.04.C7.01.61
+          space: 253
+          offset: '0x00001251'
+        set true:
+          value: 02.01.57.00.04.C7.01.60
+          space: 253
+          offset: '0x00001249'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000284C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000284D'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000284B'
+        set false:
+          value: 02.01.57.00.04.C7.01.63
+          space: 253
+          offset: '0x00001262'
+        set true:
+          value: 02.01.57.00.04.C7.01.62
+          space: 253
+          offset: '0x0000125A'
+    Logic(21):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000028B9'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000028B8'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.6C
+          space: 253
+          offset: '0x000012D9'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000012D8'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000028BA'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028BB'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.6D
+          space: 253
+          offset: '0x000012E2'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000012E1'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000028C3'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028C4'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.6E
+          space: 253
+          offset: '0x000012EB'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000012EA'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000028CC'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028CD'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.6F
+          space: 253
+          offset: '0x000012F4'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000012F3'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000028D5'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028D6'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x00001292'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x000012B2'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x000012C3'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000012D4'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000012D7'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000012D6'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000028B3'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028B4'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000028B2'
+        set false:
+          value: 02.01.57.00.04.C7.01.69
+          space: 253
+          offset: '0x000012BB'
+        set true:
+          value: 02.01.57.00.04.C7.01.68
+          space: 253
+          offset: '0x000012B3'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000028B6'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000028B7'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000028B5'
+        set false:
+          value: 02.01.57.00.04.C7.01.6B
+          space: 253
+          offset: '0x000012CC'
+        set true:
+          value: 02.01.57.00.04.C7.01.6A
+          space: 253
+          offset: '0x000012C4'
+    Logic(22):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002923'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002922'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.74
+          space: 253
+          offset: '0x00001343'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001342'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002924'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002925'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.75
+          space: 253
+          offset: '0x0000134C'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000134B'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000292D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000292E'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.76
+          space: 253
+          offset: '0x00001355'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001354'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002936'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002937'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.77
+          space: 253
+          offset: '0x0000135E'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000135D'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000293F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002940'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x000012FC'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x0000131C'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x0000132D'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000133E'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001341'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001340'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000291D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000291E'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000291C'
+        set false:
+          value: 02.01.57.00.04.C7.01.71
+          space: 253
+          offset: '0x00001325'
+        set true:
+          value: 02.01.57.00.04.C7.01.70
+          space: 253
+          offset: '0x0000131D'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002920'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002921'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000291F'
+        set false:
+          value: 02.01.57.00.04.C7.01.73
+          space: 253
+          offset: '0x00001336'
+        set true:
+          value: 02.01.57.00.04.C7.01.72
+          space: 253
+          offset: '0x0000132E'
+    Logic(23):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x0000298D'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x0000298C'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.7C
+          space: 253
+          offset: '0x000013AD'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000013AC'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000298E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000298F'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.7D
+          space: 253
+          offset: '0x000013B6'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000013B5'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002997'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002998'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.7E
+          space: 253
+          offset: '0x000013BF'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000013BE'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000029A0'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000029A1'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.7F
+          space: 253
+          offset: '0x000013C8'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000013C7'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000029A9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000029AA'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x00001366'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x00001386'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00001397'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000013A8'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000013AB'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000013AA'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002987'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002988'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002986'
+        set false:
+          value: 02.01.57.00.04.C7.01.79
+          space: 253
+          offset: '0x0000138F'
+        set true:
+          value: 02.01.57.00.04.C7.01.78
+          space: 253
+          offset: '0x00001387'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000298A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000298B'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002989'
+        set false:
+          value: 02.01.57.00.04.C7.01.7B
+          space: 253
+          offset: '0x000013A0'
+        set true:
+          value: 02.01.57.00.04.C7.01.7A
+          space: 253
+          offset: '0x00001398'
+    Logic(24):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000029F7'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000029F6'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.84
+          space: 253
+          offset: '0x00001417'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001416'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000029F8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000029F9'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.85
+          space: 253
+          offset: '0x00001420'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000141F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A01'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A02'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.86
+          space: 253
+          offset: '0x00001429'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001428'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A0A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A0B'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.87
+          space: 253
+          offset: '0x00001432'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001431'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A13'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A14'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x000013D0'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x000013F0'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00001401'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001412'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001415'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001414'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000029F1'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000029F2'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000029F0'
+        set false:
+          value: 02.01.57.00.04.C7.01.81
+          space: 253
+          offset: '0x000013F9'
+        set true:
+          value: 02.01.57.00.04.C7.01.80
+          space: 253
+          offset: '0x000013F1'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000029F4'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000029F5'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000029F3'
+        set false:
+          value: 02.01.57.00.04.C7.01.83
+          space: 253
+          offset: '0x0000140A'
+        set true:
+          value: 02.01.57.00.04.C7.01.82
+          space: 253
+          offset: '0x00001402'
+    Logic(25):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002A61'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002A60'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.8C
+          space: 253
+          offset: '0x00001481'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001480'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A62'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A63'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.8D
+          space: 253
+          offset: '0x0000148A'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001489'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A6B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A6C'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.8E
+          space: 253
+          offset: '0x00001493'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001492'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A74'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A75'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.8F
+          space: 253
+          offset: '0x0000149C'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000149B'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002A7D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A7E'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x0000143A'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x0000145A'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x0000146B'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000147C'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x0000147F'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000147E'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002A5B'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A5C'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002A5A'
+        set false:
+          value: 02.01.57.00.04.C7.01.89
+          space: 253
+          offset: '0x00001463'
+        set true:
+          value: 02.01.57.00.04.C7.01.88
+          space: 253
+          offset: '0x0000145B'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002A5E'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002A5F'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002A5D'
+        set false:
+          value: 02.01.57.00.04.C7.01.8B
+          space: 253
+          offset: '0x00001474'
+        set true:
+          value: 02.01.57.00.04.C7.01.8A
+          space: 253
+          offset: '0x0000146C'
+    Logic(26):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002ACB'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002ACA'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.04.C1
+          space: 253
+          offset: '0x000014EB'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x000014EA'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002ACC'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002ACD'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.95
+          space: 253
+          offset: '0x000014F4'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000014F3'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002AD5'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002AD6'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.96
+          space: 253
+          offset: '0x000014FD'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000014FC'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002ADE'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002ADF'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.97
+          space: 253
+          offset: '0x00001506'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001505'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002AE7'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002AE8'
+      Description:
+        value: SM-SL-043044-20W Logic1
+        space: 253
+        offset: '0x000014A4'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x000014C4'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x000014D5'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000014E6'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000014E9'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000014E8'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002AC5'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002AC6'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002AC4'
+        set false:
+          value: 02.01.57.00.04.C7.00.97
+          space: 253
+          offset: '0x000014CD'
+        set true:
+          value: 02.01.57.00.04.C7.00.96
+          space: 253
+          offset: '0x000014C5'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002AC8'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002AC9'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002AC7'
+        set false:
+          value: 02.01.57.00.04.C7.01.93
+          space: 253
+          offset: '0x000014DE'
+        set true:
+          value: 02.01.57.00.04.C7.01.92
+          space: 253
+          offset: '0x000014D6'
+    Logic(27):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x00002B35'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002B34'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.04.BB
+          space: 253
+          offset: '0x00001555'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00001554'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002B36'
+        Track Speed:
+          value: '5'
+          space: 253
+          offset: '0x00002B37'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.04.BE
+          space: 253
+          offset: '0x0000155E'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x0000155D'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002B3F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002B40'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.9E
+          space: 253
+          offset: '0x00001567'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001566'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002B48'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002B49'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.9F
+          space: 253
+          offset: '0x00001570'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000156F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002B51'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002B52'
+      Description:
+        value: SM-SL-043044-20W Logic2
+        space: 253
+        offset: '0x0000150E'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x0000152E'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x0000153F'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001550'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001553'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001552'
+      'Variable #1':
+        Source:
+          value: '2'
+          space: 253
+          offset: '0x00002B2F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002B30'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002B2E'
+        set false:
+          value: 02.01.57.00.04.C7.01.99
+          space: 253
+          offset: '0x00001537'
+        set true:
+          value: 02.01.57.00.04.C7.01.98
+          space: 253
+          offset: '0x0000152F'
+      'Variable #2':
+        Source:
+          value: '2'
+          space: 253
+          offset: '0x00002B32'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002B33'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002B31'
+        set false:
+          value: 02.01.57.00.04.C7.01.9B
+          space: 253
+          offset: '0x00001548'
+        set true:
+          value: 02.01.57.00.04.C7.01.9A
+          space: 253
+          offset: '0x00001540'
+    Logic(28):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002B9F'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002B9E'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.05.A1
+          space: 253
+          offset: '0x000015BF'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x000015BE'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002BA0'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002BA1'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.A5
+          space: 253
+          offset: '0x000015C8'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000015C7'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002BA9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002BAA'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.A6
+          space: 253
+          offset: '0x000015D1'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000015D0'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002BB2'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002BB3'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.A7
+          space: 253
+          offset: '0x000015DA'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000015D9'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002BBB'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002BBC'
+      Description:
+        value: SM-SL-043044-10W Logic1
+        space: 253
+        offset: '0x00001578'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00001598'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x000015A9'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000015BA'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000015BD'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000015BC'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002B99'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002B9A'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002B98'
+        set false:
+          value: 02.01.57.00.04.C7.00.7F
+          space: 253
+          offset: '0x000015A1'
+        set true:
+          value: 02.01.57.00.04.C7.00.7E
+          space: 253
+          offset: '0x00001599'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002B9C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002B9D'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002B9B'
+        set false:
+          value: 02.01.57.00.04.C7.01.A3
+          space: 253
+          offset: '0x000015B2'
+        set true:
+          value: 02.01.57.00.04.C7.01.A2
+          space: 253
+          offset: '0x000015AA'
+    Logic(29):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x00002C09'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002C08'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.05.9B
+          space: 253
+          offset: '0x00001629'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00001628'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C0A'
+        Track Speed:
+          value: '5'
+          space: 253
+          offset: '0x00002C0B'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.05.9E
+          space: 253
+          offset: '0x00001632'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00001631'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C13'
+        Track Speed:
+          value: '7'
+          space: 253
+          offset: '0x00002C14'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.AE
+          space: 253
+          offset: '0x0000163B'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000163A'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C1C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C1D'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.AF
+          space: 253
+          offset: '0x00001644'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001643'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C25'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C26'
+      Description:
+        value: SM-SL-043044-10W Logic2
+        space: 253
+        offset: '0x000015E2'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00001602'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x00001613'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00001624'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001627'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001626'
+      'Variable #1':
+        Source:
+          value: '1'
+          space: 253
+          offset: '0x00002C03'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C04'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002C02'
+        set false:
+          value: 02.01.57.00.04.C7.01.A9
+          space: 253
+          offset: '0x0000160B'
+        set true:
+          value: 02.01.57.00.04.C7.01.A8
+          space: 253
+          offset: '0x00001603'
+      'Variable #2':
+        Source:
+          value: '1'
+          space: 253
+          offset: '0x00002C06'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002C07'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002C05'
+        set false:
+          value: 02.01.57.00.04.C7.01.AB
+          space: 253
+          offset: '0x0000161C'
+        set true:
+          value: 02.01.57.00.04.C7.01.AA
+          space: 253
+          offset: '0x00001614'
+    Logic(3):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002145'
+        when true:
+          value: '4'
+          space: 253
+          offset: '0x00002144'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.DC
+          space: 253
+          offset: '0x00000B65'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B64'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002146'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002147'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.DD
+          space: 253
+          offset: '0x00000B6E'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B6D'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000214F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002150'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.DE
+          space: 253
+          offset: '0x00000B77'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B76'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002158'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002159'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.DF
+          space: 253
+          offset: '0x00000B80'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000B7F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002161'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002162'
+      Description:
+        value: SM-SL-050050-10W Logic3
+        space: 253
+        offset: '0x00000B1E'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000B3E'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000B4F'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000B60'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000B63'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000B62'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000213F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002140'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000213E'
+        set false:
+          value: 02.01.57.00.04.C7.00.61
+          space: 253
+          offset: '0x00000B47'
+        set true:
+          value: 02.01.57.00.04.C7.00.60
+          space: 253
+          offset: '0x00000B3F'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002142'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002143'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002141'
+        set false:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00000B58'
+        set true:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x00000B50'
+    Logic(30):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002C73'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002C72'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.05.D9
+          space: 253
+          offset: '0x00001693'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00001692'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C74'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C75'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.B5
+          space: 253
+          offset: '0x0000169C'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000169B'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C7D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C7E'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.B6
+          space: 253
+          offset: '0x000016A5'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000016A4'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C86'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C87'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.B7
+          space: 253
+          offset: '0x000016AE'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x000016AD'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002C8F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002C90'
+      Description:
+        value: SM-SL-043044-10E Logic1
+        space: 253
+        offset: '0x0000164C'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x0000166C'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x0000167D'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000168E'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00001691'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00001690'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002C6D'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002C6E'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002C6C'
+        set false:
+          value: 02.01.57.00.04.C7.00.BB
+          space: 253
+          offset: '0x00001675'
+        set true:
+          value: 02.01.57.00.04.C7.00.BA
+          space: 253
+          offset: '0x0000166D'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002C70'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002C71'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002C6F'
+        set false:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00001686'
+        set true:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x0000167E'
+    Logic(31):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x00002CDD'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002CDC'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.05.D3
+          space: 253
+          offset: '0x000016FD'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x000016FC'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002CDE'
+        Track Speed:
+          value: '5'
+          space: 253
+          offset: '0x00002CDF'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.05.D6
+          space: 253
+          offset: '0x00001706'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00001705'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002CE7'
+        Track Speed:
+          value: '7'
+          space: 253
+          offset: '0x00002CE8'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.BE
+          space: 253
+          offset: '0x0000170F'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x0000170E'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002CF0'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002CF1'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.BF
+          space: 253
+          offset: '0x00001718'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00001717'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002CF9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002CFA'
+      Description:
+        value: SM-SL-0430440-10E Logic2
+        space: 253
+        offset: '0x000016B6'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x000016D6'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x000016E7'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000016F8'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x000016FB'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000016FA'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002CD7'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002CD8'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002CD6'
+        set false:
+          value: 02.01.57.11.00.06.02.52
+          space: 253
+          offset: '0x000016DF'
+        set true:
+          value: 02.01.57.11.00.06.02.51
+          space: 253
+          offset: '0x000016D7'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002CDA'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002CDB'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002CD9'
+        set false:
+          value: 02.01.57.11.00.06.02.5B
+          space: 253
+          offset: '0x000016F0'
+        set true:
+          value: 02.01.57.11.00.06.02.5A
+          space: 253
+          offset: '0x000016E8'
+    Logic(4):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000021AF'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000021AE'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.C2
+          space: 253
+          offset: '0x00000BCF'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000BCE'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000021B0'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021B1'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.E5
+          space: 253
+          offset: '0x00000BD8'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000BD7'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000021B9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021BA'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.E6
+          space: 253
+          offset: '0x00000BE1'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000BE0'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000021C2'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021C3'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.E7
+          space: 253
+          offset: '0x00000BEA'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000BE9'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000021CB'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021CC'
+      Description:
+        value: SM-SL-050050-10W Logic4
+        space: 253
+        offset: '0x00000B88'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000BA8'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000BB9'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000BCA'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000BCD'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000BCC'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000021A9'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021AA'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000021A8'
+        set false:
+          value: 02.01.57.00.04.C7.00.E1
+          space: 253
+          offset: '0x00000BB1'
+        set true:
+          value: 02.01.57.00.04.C7.00.E0
+          space: 253
+          offset: '0x00000BA9'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000021AC'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000021AD'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000021AB'
+        set false:
+          value: 02.01.57.00.04.C7.00.E1
+          space: 253
+          offset: '0x00000BC2'
+        set true:
+          value: 02.01.57.00.04.C7.00.E0
+          space: 253
+          offset: '0x00000BBA'
+    Logic(5):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002219'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002218'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.7C
+          space: 253
+          offset: '0x00000C39'
+        Condition:
+          value: '1'
+          space: 253
+          offset: '0x00000C38'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000221A'
+        Track Speed:
+          value: '7'
+          space: 253
+          offset: '0x0000221B'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.ED
+          space: 253
+          offset: '0x00000C42'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000C41'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002223'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002224'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.EE
+          space: 253
+          offset: '0x00000C4B'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000C4A'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000222C'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000222D'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.EF
+          space: 253
+          offset: '0x00000C54'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000C53'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002235'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002236'
+      Description:
+        value: SM-SL-050050-10W Logic5
+        space: 253
+        offset: '0x00000BF2'
+      Function:
+        value: '1'
+        space: 253
+        offset: '0x00000C12'
+      Logic Operation:
+        value: '7'
+        space: 253
+        offset: '0x00000C23'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000C34'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000C37'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000C36'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002213'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002214'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002212'
+        set false:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00000C1B'
+        set true:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x00000C13'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002216'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002217'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002215'
+        set false:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00000C2C'
+        set true:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x00000C24'
+    Logic(6):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x00002283'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002282'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.73
+          space: 253
+          offset: '0x00000CA3'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00000CA2'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002284'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002285'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.01.76
+          space: 253
+          offset: '0x00000CAC'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00000CAB'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000228D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000228E'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.F6
+          space: 253
+          offset: '0x00000CB5'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000CB4'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002296'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002297'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.F7
+          space: 253
+          offset: '0x00000CBE'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000CBD'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000229F'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000022A0'
+      Description:
+        value: SM-SL-050050-10W Logic6
+        space: 253
+        offset: '0x00000C5C'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00000C7C'
+      Logic Operation:
+        value: '1'
+        space: 253
+        offset: '0x00000C8D'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000C9E'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000CA1'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000CA0'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x0000227D'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000227E'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000227C'
+        set false:
+          value: 02.01.57.11.00.06.05.9A
+          space: 253
+          offset: '0x00000C85'
+        set true:
+          value: 02.01.57.11.00.06.05.99
+          space: 253
+          offset: '0x00000C7D'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002280'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x00002281'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x0000227F'
+        set false:
+          value: 02.01.57.11.00.06.05.A3
+          space: 253
+          offset: '0x00000C96'
+        set true:
+          value: 02.01.57.11.00.06.05.A2
+          space: 253
+          offset: '0x00000C8E'
+    Logic(7):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x000022ED'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000022EC'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.FC
+          space: 253
+          offset: '0x00000D0D'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D0C'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000022EE'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000022EF'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.FD
+          space: 253
+          offset: '0x00000D16'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D15'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000022F7'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000022F8'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.FE
+          space: 253
+          offset: '0x00000D1F'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D1E'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002300'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002301'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.00.FF
+          space: 253
+          offset: '0x00000D28'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D27'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002309'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000230A'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x00000CC6'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x00000CE6'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000CF7'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000D08'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000D0B'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000D0A'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000022E7'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000022E8'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000022E6'
+        set false:
+          value: 02.01.57.00.04.C7.00.F9
+          space: 253
+          offset: '0x00000CEF'
+        set true:
+          value: 02.01.57.00.04.C7.00.F8
+          space: 253
+          offset: '0x00000CE7'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000022EA'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000022EB'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000022E9'
+        set false:
+          value: 02.01.57.00.04.C7.00.FB
+          space: 253
+          offset: '0x00000D00'
+        set true:
+          value: 02.01.57.00.04.C7.00.FA
+          space: 253
+          offset: '0x00000CF8'
+    Logic(8):
+      Action:
+        when false:
+          value: '4'
+          space: 253
+          offset: '0x00002357'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x00002356'
+      Action(0):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.04
+          space: 253
+          offset: '0x00000D77'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D76'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002358'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002359'
+      Action(1):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.05
+          space: 253
+          offset: '0x00000D80'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D7F'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002361'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002362'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.06
+          space: 253
+          offset: '0x00000D89'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D88'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x0000236A'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x0000236B'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.07
+          space: 253
+          offset: '0x00000D92'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000D91'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x00002373'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002374'
+      Description:
+        value: ''
+        space: 253
+        offset: '0x00000D30'
+      Function:
+        value: '0'
+        space: 253
+        offset: '0x00000D50'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000D61'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000D72'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000D75'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000D74'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002351'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002352'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002350'
+        set false:
+          value: 02.01.57.00.04.C7.01.01
+          space: 253
+          offset: '0x00000D59'
+        set true:
+          value: 02.01.57.00.04.C7.01.00
+          space: 253
+          offset: '0x00000D51'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x00002354'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x00002355'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x00002353'
+        set false:
+          value: 02.01.57.00.04.C7.01.03
+          space: 253
+          offset: '0x00000D6A'
+        set true:
+          value: 02.01.57.00.04.C7.01.02
+          space: 253
+          offset: '0x00000D62'
+    Logic(9):
+      Action:
+        when false:
+          value: '0'
+          space: 253
+          offset: '0x000023C1'
+        when true:
+          value: '0'
+          space: 253
+          offset: '0x000023C0'
+      Action(0):
+        Action Event:
+          value: 02.01.57.11.00.06.01.E9
+          space: 253
+          offset: '0x00000DE1'
+        Condition:
+          value: '4'
+          space: 253
+          offset: '0x00000DE0'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000023C2'
+        Track Speed:
+          value: '1'
+          space: 253
+          offset: '0x000023C3'
+      Action(1):
+        Action Event:
+          value: 02.01.57.11.00.06.01.E0
+          space: 253
+          offset: '0x00000DEA'
+        Condition:
+          value: '3'
+          space: 253
+          offset: '0x00000DE9'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000023CB'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000023CC'
+      Action(2):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.0E
+          space: 253
+          offset: '0x00000DF3'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000DF2'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000023D4'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000023D5'
+      Action(3):
+        Action Event:
+          value: 02.01.57.00.04.C7.01.0F
+          space: 253
+          offset: '0x00000DFC'
+        Condition:
+          value: '0'
+          space: 253
+          offset: '0x00000DFB'
+        Destination:
+          value: '0'
+          space: 253
+          offset: '0x000023DD'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000023DE'
+      Description:
+        value: SM-SL-050050-20W CTCMode
+        space: 253
+        offset: '0x00000D9A'
+      Function:
+        value: '3'
+        space: 253
+        offset: '0x00000DBA'
+      Logic Operation:
+        value: '0'
+        space: 253
+        offset: '0x00000DCB'
+      Time Delay before action:
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000DDC'
+        Retriggerable:
+          value: '0'
+          space: 253
+          offset: '0x00000DDF'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000DDE'
+      'Variable #1':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000023BB'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000023BC'
+        Trigger:
+          value: '0'
+          space: 253
+          offset: '0x000023BA'
+        set false:
+          value: 02.01.57.00.04.C7.00.C1
+          space: 253
+          offset: '0x00000DC3'
+        set true:
+          value: 02.01.57.00.04.C7.00.C0
+          space: 253
+          offset: '0x00000DBB'
+      'Variable #2':
+        Source:
+          value: '0'
+          space: 253
+          offset: '0x000023BE'
+        Track Speed:
+          value: '0'
+          space: 253
+          offset: '0x000023BF'
+        Trigger:
+          value: '1'
+          space: 253
+          offset: '0x000023BD'
+        set false:
+          value: 02.01.57.00.04.C7.01.0B
+          space: 253
+          offset: '0x00000DD4'
+        set true:
+          value: 02.01.57.00.04.C7.01.0A
+          space: 253
+          offset: '0x00000DCC'
+  NODE ID:
+    Your name and description for this node:
+      Node Description:
+        value: Turnouts and Detection for T-SL area
+        space: 251
+        offset: '0x00000040'
+      Node Name:
+        value: LCC-SL-5050-1
+        space: 251
+        offset: '0x00000000'
+  Node Power Monitor:
+    Message Options:
+      value: '0'
+      space: 253
+      offset: '0x00001E40'
+    Power Not OK:
+      value: 02.01.57.00.04.C7.02.41
+      space: 253
+      offset: '0x00001E49'
+    Power OK:
+      value: 02.01.57.00.04.C7.02.40
+      space: 253
+      offset: '0x00001E41'
+  Port I/O:
+    Line(0):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000000A2'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000000A5'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000000A4'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000000A6'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000000A9'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000000A8'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000000B2'
+        Command:
+          value: 02.01.57.00.04.C7.00.00
+          space: 253
+          offset: '0x000000AA'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.06
+          space: 253
+          offset: '0x000000E1'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000000E0'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x000000BB'
+        Command:
+          value: 02.01.57.00.04.C7.00.01
+          space: 253
+          offset: '0x000000B3'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.07
+          space: 253
+          offset: '0x000000EA'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000000E9'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000000C4'
+        Command:
+          value: 02.01.57.00.04.C7.00.02
+          space: 253
+          offset: '0x000000BC'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.08
+          space: 253
+          offset: '0x000000F3'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000000F2'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000000CD'
+        Command:
+          value: 02.01.57.00.04.C7.00.03
+          space: 253
+          offset: '0x000000C5'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.09
+          space: 253
+          offset: '0x000000FC'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000000FB'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000000D6'
+        Command:
+          value: 02.01.57.00.04.C7.00.04
+          space: 253
+          offset: '0x000000CE'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.0A
+          space: 253
+          offset: '0x00000105'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000104'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000000DF'
+        Command:
+          value: 02.01.57.00.04.C7.00.05
+          space: 253
+          offset: '0x000000D7'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.0B
+          space: 253
+          offset: '0x0000010E'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000010D'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00002D42'
+      Line Description:
+        value: ''
+        space: 253
+        offset: '0x00000080'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00002D40'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x00002D41'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00002D43'
+    Line(1):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000138'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000013B'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000013A'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000013C'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000013F'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000013E'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x00000148'
+        Command:
+          value: 02.01.57.00.04.C7.00.0C
+          space: 253
+          offset: '0x00000140'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.12
+          space: 253
+          offset: '0x00000177'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000176'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000151'
+        Command:
+          value: 02.01.57.00.04.C7.00.0D
+          space: 253
+          offset: '0x00000149'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.13
+          space: 253
+          offset: '0x00000180'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x0000017F'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000015A'
+        Command:
+          value: 02.01.57.00.04.C7.00.0E
+          space: 253
+          offset: '0x00000152'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.14
+          space: 253
+          offset: '0x00000189'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000188'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000163'
+        Command:
+          value: 02.01.57.00.04.C7.00.0F
+          space: 253
+          offset: '0x0000015B'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.15
+          space: 253
+          offset: '0x00000192'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000191'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000016C'
+        Command:
+          value: 02.01.57.00.04.C7.00.10
+          space: 253
+          offset: '0x00000164'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.16
+          space: 253
+          offset: '0x0000019B'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000019A'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000175'
+        Command:
+          value: 02.01.57.00.04.C7.00.11
+          space: 253
+          offset: '0x0000016D'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.17
+          space: 253
+          offset: '0x000001A4'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000001A3'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00002DD8'
+      Line Description:
+        value: ''
+        space: 253
+        offset: '0x00000116'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00002DD6'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x00002DD7'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00002DD9'
+    Line(10):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000067E'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000681'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000680'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000682'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000685'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000684'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x0000068E'
+        Command:
+          value: 02.01.57.00.04.C7.00.78
+          space: 253
+          offset: '0x00000686'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.7E
+          space: 253
+          offset: '0x000006BD'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000006BC'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000697'
+        Command:
+          value: 02.01.57.00.04.C7.00.79
+          space: 253
+          offset: '0x0000068F'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.7F
+          space: 253
+          offset: '0x000006C6'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000006C5'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000006A0'
+        Command:
+          value: 02.01.57.00.04.C7.00.7A
+          space: 253
+          offset: '0x00000698'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.80
+          space: 253
+          offset: '0x000006CF'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000006CE'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000006A9'
+        Command:
+          value: 02.01.57.00.04.C7.00.7B
+          space: 253
+          offset: '0x000006A1'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.81
+          space: 253
+          offset: '0x000006D8'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000006D7'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000006B2'
+        Command:
+          value: 02.01.57.00.04.C7.00.7C
+          space: 253
+          offset: '0x000006AA'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.82
+          space: 253
+          offset: '0x000006E1'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000006E0'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000006BB'
+        Command:
+          value: 02.01.57.00.04.C7.00.7D
+          space: 253
+          offset: '0x000006B3'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.83
+          space: 253
+          offset: '0x000006EA'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000006E9'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x0000331E'
+      Line Description:
+        value: T-SL-047048-20/BD-SL-041044-10
+        space: 253
+        offset: '0x0000065C'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x0000331C'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x0000331D'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x0000331F'
+    Line(11):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000714'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000717'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000716'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000718'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000071B'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000071A'
+      Event(0):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000724'
+        Command:
+          value: 02.01.57.00.04.C7.00.84
+          space: 253
+          offset: '0x0000071C'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8A
+          space: 253
+          offset: '0x00000753'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000752'
+      Event(1):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000072D'
+        Command:
+          value: 02.01.57.00.04.C7.00.85
+          space: 253
+          offset: '0x00000725'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8B
+          space: 253
+          offset: '0x0000075C'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x0000075B'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000736'
+        Command:
+          value: 02.01.57.00.04.C7.00.86
+          space: 253
+          offset: '0x0000072E'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8C
+          space: 253
+          offset: '0x00000765'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000764'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000073F'
+        Command:
+          value: 02.01.57.00.04.C7.00.87
+          space: 253
+          offset: '0x00000737'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8D
+          space: 253
+          offset: '0x0000076E'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000076D'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000748'
+        Command:
+          value: 02.01.57.00.04.C7.00.88
+          space: 253
+          offset: '0x00000740'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8E
+          space: 253
+          offset: '0x00000777'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000776'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000751'
+        Command:
+          value: 02.01.57.00.04.C7.00.89
+          space: 253
+          offset: '0x00000749'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.8F
+          space: 253
+          offset: '0x00000780'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000077F'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x000033B4'
+      Line Description:
+        value: /BD-SL-050056-90
+        space: 253
+        offset: '0x000006F2'
+      Output Function:
+        value: '0'
+        space: 253
+        offset: '0x000033B2'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x000033B3'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x000033B5'
+    Line(12):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000007AA'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000007AD'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000007AC'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000007AE'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000007B1'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000007B0'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000007BA'
+        Command:
+          value: 02.01.57.00.04.C7.00.90
+          space: 253
+          offset: '0x000007B2'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.96
+          space: 253
+          offset: '0x000007E9'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000007E8'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x000007C3'
+        Command:
+          value: 02.01.57.00.04.C7.00.91
+          space: 253
+          offset: '0x000007BB'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.97
+          space: 253
+          offset: '0x000007F2'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000007F1'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000007CC'
+        Command:
+          value: 02.01.57.00.04.C7.00.92
+          space: 253
+          offset: '0x000007C4'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.98
+          space: 253
+          offset: '0x000007FB'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000007FA'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000007D5'
+        Command:
+          value: 02.01.57.00.04.C7.00.93
+          space: 253
+          offset: '0x000007CD'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.99
+          space: 253
+          offset: '0x00000804'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000803'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000007DE'
+        Command:
+          value: 02.01.57.00.04.C7.00.94
+          space: 253
+          offset: '0x000007D6'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.9A
+          space: 253
+          offset: '0x0000080D'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000080C'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000007E7'
+        Command:
+          value: 02.01.57.00.04.C7.00.95
+          space: 253
+          offset: '0x000007DF'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.9B
+          space: 253
+          offset: '0x00000816'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000815'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x0000344A'
+      Line Description:
+        value: /BD-SL-041044-20
+        space: 253
+        offset: '0x00000788'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00003448'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x00003449'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x0000344B'
+    Line(13):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000840'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000843'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000842'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000844'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000847'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000846'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x00000850'
+        Command:
+          value: 02.01.57.00.04.C7.00.9C
+          space: 253
+          offset: '0x00000848'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A2
+          space: 253
+          offset: '0x0000087F'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x0000087E'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000859'
+        Command:
+          value: 02.01.57.00.04.C7.00.9D
+          space: 253
+          offset: '0x00000851'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A3
+          space: 253
+          offset: '0x00000888'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x00000887'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000862'
+        Command:
+          value: 02.01.57.00.04.C7.00.9E
+          space: 253
+          offset: '0x0000085A'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A4
+          space: 253
+          offset: '0x00000891'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000890'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000086B'
+        Command:
+          value: 02.01.57.00.04.C7.00.9F
+          space: 253
+          offset: '0x00000863'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A5
+          space: 253
+          offset: '0x0000089A'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000899'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000874'
+        Command:
+          value: 02.01.57.00.04.C7.00.A0
+          space: 253
+          offset: '0x0000086C'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A6
+          space: 253
+          offset: '0x000008A3'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000008A2'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000087D'
+        Command:
+          value: 02.01.57.00.04.C7.00.A1
+          space: 253
+          offset: '0x00000875'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.A7
+          space: 253
+          offset: '0x000008AC'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000008AB'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x000034E0'
+      Line Description:
+        value: T-SL-048049-10/BD-SL-044050-20
+        space: 253
+        offset: '0x0000081E'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x000034DE'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x000034DF'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x000034E1'
+    Line(14):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000008D6'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000008D9'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000008D8'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000008DA'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000008DD'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000008DC'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000008E6'
+        Command:
+          value: 02.01.57.00.04.C7.00.A8
+          space: 253
+          offset: '0x000008DE'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.AE
+          space: 253
+          offset: '0x00000915'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000914'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x000008EF'
+        Command:
+          value: 02.01.57.00.04.C7.00.A9
+          space: 253
+          offset: '0x000008E7'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.AF
+          space: 253
+          offset: '0x0000091E'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x0000091D'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000008F8'
+        Command:
+          value: 02.01.57.00.04.C7.00.AA
+          space: 253
+          offset: '0x000008F0'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.B0
+          space: 253
+          offset: '0x00000927'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000926'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000901'
+        Command:
+          value: 02.01.57.00.04.C7.00.AB
+          space: 253
+          offset: '0x000008F9'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.B1
+          space: 253
+          offset: '0x00000930'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000092F'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000090A'
+        Command:
+          value: 02.01.57.00.04.C7.00.AC
+          space: 253
+          offset: '0x00000902'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.B2
+          space: 253
+          offset: '0x00000939'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000938'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000913'
+        Command:
+          value: 02.01.57.00.04.C7.00.AD
+          space: 253
+          offset: '0x0000090B'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.B3
+          space: 253
+          offset: '0x00000942'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000941'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00003576'
+      Line Description:
+        value: T-SL-049050-30/BD-SL-049050-40
+        space: 253
+        offset: '0x000008B4'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00003574'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x00003575'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00003577'
+    Line(15):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000096C'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000096F'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000096E'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000970'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000973'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000972'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x0000097C'
+        Command:
+          value: 02.01.57.00.04.C7.00.B4
+          space: 253
+          offset: '0x00000974'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BA
+          space: 253
+          offset: '0x000009AB'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000009AA'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000985'
+        Command:
+          value: 02.01.57.00.04.C7.00.B5
+          space: 253
+          offset: '0x0000097D'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BB
+          space: 253
+          offset: '0x000009B4'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000009B3'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000098E'
+        Command:
+          value: 02.01.57.00.04.C7.00.B6
+          space: 253
+          offset: '0x00000986'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BC
+          space: 253
+          offset: '0x000009BD'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000009BC'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000997'
+        Command:
+          value: 02.01.57.00.04.C7.00.B7
+          space: 253
+          offset: '0x0000098F'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BD
+          space: 253
+          offset: '0x000009C6'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000009C5'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000009A0'
+        Command:
+          value: 02.01.57.00.04.C7.00.B8
+          space: 253
+          offset: '0x00000998'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BE
+          space: 253
+          offset: '0x000009CF'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000009CE'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000009A9'
+        Command:
+          value: 02.01.57.00.04.C7.00.B9
+          space: 253
+          offset: '0x000009A1'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.BF
+          space: 253
+          offset: '0x000009D8'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000009D7'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x0000360C'
+      Line Description:
+        value: T-SL-050050-40/BD-SL-044050-10
+        space: 253
+        offset: '0x0000094A'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x0000360A'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x0000360B'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x0000360D'
+    Line(2):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000001CE'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000001D1'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000001D0'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000001D2'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000001D5'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000001D4'
+      Event(0):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000001DE'
+        Command:
+          value: 02.01.57.00.04.C7.00.18
+          space: 253
+          offset: '0x000001D6'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.1E
+          space: 253
+          offset: '0x0000020D'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x0000020C'
+      Event(1):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000001E7'
+        Command:
+          value: 02.01.57.00.04.C7.00.19
+          space: 253
+          offset: '0x000001DF'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.1F
+          space: 253
+          offset: '0x00000216'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x00000215'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000001F0'
+        Command:
+          value: 02.01.57.00.04.C7.00.1A
+          space: 253
+          offset: '0x000001E8'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.20
+          space: 253
+          offset: '0x0000021F'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000021E'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000001F9'
+        Command:
+          value: 02.01.57.00.04.C7.00.1B
+          space: 253
+          offset: '0x000001F1'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.21
+          space: 253
+          offset: '0x00000228'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000227'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000202'
+        Command:
+          value: 02.01.57.00.04.C7.00.1C
+          space: 253
+          offset: '0x000001FA'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.22
+          space: 253
+          offset: '0x00000231'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000230'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000020B'
+        Command:
+          value: 02.01.57.00.04.C7.00.1D
+          space: 253
+          offset: '0x00000203'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.23
+          space: 253
+          offset: '0x0000023A'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000239'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00002E6E'
+      Line Description:
+        value: ''
+        space: 253
+        offset: '0x000001AC'
+      Output Function:
+        value: '0'
+        space: 253
+        offset: '0x00002E6C'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x00002E6D'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00002E6F'
+    Line(3):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000264'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000267'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000266'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000268'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000026B'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000026A'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x00000274'
+        Command:
+          value: 02.01.57.00.04.C7.00.24
+          space: 253
+          offset: '0x0000026C'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2A
+          space: 253
+          offset: '0x000002A3'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000002A2'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x0000027D'
+        Command:
+          value: 02.01.57.00.04.C7.00.25
+          space: 253
+          offset: '0x00000275'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2B
+          space: 253
+          offset: '0x000002AC'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000002AB'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000286'
+        Command:
+          value: 02.01.57.00.04.C7.00.26
+          space: 253
+          offset: '0x0000027E'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2C
+          space: 253
+          offset: '0x000002B5'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000002B4'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000028F'
+        Command:
+          value: 02.01.57.00.04.C7.00.27
+          space: 253
+          offset: '0x00000287'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2D
+          space: 253
+          offset: '0x000002BE'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000002BD'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000298'
+        Command:
+          value: 02.01.57.00.04.C7.00.28
+          space: 253
+          offset: '0x00000290'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2E
+          space: 253
+          offset: '0x000002C7'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000002C6'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000002A1'
+        Command:
+          value: 02.01.57.00.04.C7.00.29
+          space: 253
+          offset: '0x00000299'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.2F
+          space: 253
+          offset: '0x000002D0'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000002CF'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00002F04'
+      Line Description:
+        value: /BD-NL-052057-20
+        space: 253
+        offset: '0x00000242'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00002F02'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x00002F03'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00002F05'
+    Line(4):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000002FA'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000002FD'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000002FC'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000002FE'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000301'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000300'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x0000030A'
+        Command:
+          value: 02.01.57.00.04.C7.00.30
+          space: 253
+          offset: '0x00000302'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.36
+          space: 253
+          offset: '0x00000339'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000338'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000313'
+        Command:
+          value: 02.01.57.00.04.C7.00.31
+          space: 253
+          offset: '0x0000030B'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.37
+          space: 253
+          offset: '0x00000342'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x00000341'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000031C'
+        Command:
+          value: 02.01.57.00.04.C7.00.32
+          space: 253
+          offset: '0x00000314'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.38
+          space: 253
+          offset: '0x0000034B'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000034A'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000325'
+        Command:
+          value: 02.01.57.00.04.C7.00.33
+          space: 253
+          offset: '0x0000031D'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.39
+          space: 253
+          offset: '0x00000354'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000353'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000032E'
+        Command:
+          value: 02.01.57.00.04.C7.00.34
+          space: 253
+          offset: '0x00000326'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.3A
+          space: 253
+          offset: '0x0000035D'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000035C'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000337'
+        Command:
+          value: 02.01.57.00.04.C7.00.35
+          space: 253
+          offset: '0x0000032F'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.3B
+          space: 253
+          offset: '0x00000366'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000365'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00002F9A'
+      Line Description:
+        value: T-NL-042043-30/BD-NL-031043-20
+        space: 253
+        offset: '0x000002D8'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00002F98'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x00002F99'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00002F9B'
+    Line(5):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000390'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000393'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000392'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000394'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000397'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000396'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000003A0'
+        Command:
+          value: 02.01.57.00.04.C7.00.3C
+          space: 253
+          offset: '0x00000398'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.42
+          space: 253
+          offset: '0x000003CF'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000003CE'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x000003A9'
+        Command:
+          value: 02.01.57.00.04.C7.00.3D
+          space: 253
+          offset: '0x000003A1'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.43
+          space: 253
+          offset: '0x000003D8'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x000003D7'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000003B2'
+        Command:
+          value: 02.01.57.00.04.C7.00.3E
+          space: 253
+          offset: '0x000003AA'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.44
+          space: 253
+          offset: '0x000003E1'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000003E0'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000003BB'
+        Command:
+          value: 02.01.57.00.04.C7.00.3F
+          space: 253
+          offset: '0x000003B3'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.45
+          space: 253
+          offset: '0x000003EA'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000003E9'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000003C4'
+        Command:
+          value: 02.01.57.00.04.C7.00.40
+          space: 253
+          offset: '0x000003BC'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.46
+          space: 253
+          offset: '0x000003F3'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000003F2'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000003CD'
+        Command:
+          value: 02.01.57.00.04.C7.00.41
+          space: 253
+          offset: '0x000003C5'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.47
+          space: 253
+          offset: '0x000003FC'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000003FB'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00003030'
+      Line Description:
+        value: T-NL-050051-20/BD-SL-042045-30
+        space: 253
+        offset: '0x0000036E'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x0000302E'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x0000302F'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00003031'
+    Line(6):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000426'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000429'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000428'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x0000042A'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x0000042D'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x0000042C'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x00000436'
+        Command:
+          value: 02.01.57.00.04.C7.00.48
+          space: 253
+          offset: '0x0000042E'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.4E
+          space: 253
+          offset: '0x00000465'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000464'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x0000043F'
+        Command:
+          value: 02.01.57.00.04.C7.00.49
+          space: 253
+          offset: '0x00000437'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.4F
+          space: 253
+          offset: '0x0000046E'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x0000046D'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000448'
+        Command:
+          value: 02.01.57.00.04.C7.00.4A
+          space: 253
+          offset: '0x00000440'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.50
+          space: 253
+          offset: '0x00000477'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000476'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000451'
+        Command:
+          value: 02.01.57.00.04.C7.00.4B
+          space: 253
+          offset: '0x00000449'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.51
+          space: 253
+          offset: '0x00000480'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000047F'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000045A'
+        Command:
+          value: 02.01.57.00.04.C7.00.4C
+          space: 253
+          offset: '0x00000452'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.52
+          space: 253
+          offset: '0x00000489'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000488'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000463'
+        Command:
+          value: 02.01.57.00.04.C7.00.4D
+          space: 253
+          offset: '0x0000045B'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.53
+          space: 253
+          offset: '0x00000492'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000491'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x000030C6'
+      Line Description:
+        value: T-NL-051051-20/BD-NL-050052-20
+        space: 253
+        offset: '0x00000404'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x000030C4'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x000030C5'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x000030C7'
+    Line(7):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000004BC'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000004BF'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000004BE'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000004C0'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000004C3'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000004C2'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000004CC'
+        Command:
+          value: 02.01.57.00.04.C7.00.54
+          space: 253
+          offset: '0x000004C4'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5A
+          space: 253
+          offset: '0x000004FB'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x000004FA'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x000004D5'
+        Command:
+          value: 02.01.57.00.04.C7.00.55
+          space: 253
+          offset: '0x000004CD'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5B
+          space: 253
+          offset: '0x00000504'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x00000503'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000004DE'
+        Command:
+          value: 02.01.57.00.04.C7.00.56
+          space: 253
+          offset: '0x000004D6'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5C
+          space: 253
+          offset: '0x0000050D'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000050C'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000004E7'
+        Command:
+          value: 02.01.57.00.04.C7.00.57
+          space: 253
+          offset: '0x000004DF'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5D
+          space: 253
+          offset: '0x00000516'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000515'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000004F0'
+        Command:
+          value: 02.01.57.00.04.C7.00.58
+          space: 253
+          offset: '0x000004E8'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5E
+          space: 253
+          offset: '0x0000051F'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000051E'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x000004F9'
+        Command:
+          value: 02.01.57.00.04.C7.00.59
+          space: 253
+          offset: '0x000004F1'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.5F
+          space: 253
+          offset: '0x00000528'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000527'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x0000315C'
+      Line Description:
+        value: T-NL-051052-30
+        space: 253
+        offset: '0x0000049A'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x0000315A'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x0000315B'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x0000315D'
+    Line(8):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000552'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000555'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000554'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x00000556'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x00000559'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x00000558'
+      Event(0):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000562'
+        Command:
+          value: 02.01.57.00.04.C7.00.60
+          space: 253
+          offset: '0x0000055A'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.66
+          space: 253
+          offset: '0x00000591'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000590'
+      Event(1):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x0000056B'
+        Command:
+          value: 02.01.57.00.04.C7.00.61
+          space: 253
+          offset: '0x00000563'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.67
+          space: 253
+          offset: '0x0000059A'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x00000599'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000574'
+        Command:
+          value: 02.01.57.00.04.C7.00.62
+          space: 253
+          offset: '0x0000056C'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.68
+          space: 253
+          offset: '0x000005A3'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000005A2'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000057D'
+        Command:
+          value: 02.01.57.00.04.C7.00.63
+          space: 253
+          offset: '0x00000575'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.69
+          space: 253
+          offset: '0x000005AC'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000005AB'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000586'
+        Command:
+          value: 02.01.57.00.04.C7.00.64
+          space: 253
+          offset: '0x0000057E'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.6A
+          space: 253
+          offset: '0x000005B5'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000005B4'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000058F'
+        Command:
+          value: 02.01.57.00.04.C7.00.65
+          space: 253
+          offset: '0x00000587'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.6B
+          space: 253
+          offset: '0x000005BE'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x000005BD'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x000031F2'
+      Line Description:
+        value: T-SL-044045-20/BD-SL-050056-10
+        space: 253
+        offset: '0x00000530'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x000031F0'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '1'
+        space: 253
+        offset: '0x000031F1'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x000031F3'
+    Line(9):
+      Delay(0):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000005E8'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000005EB'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000005EA'
+      Delay(1):
+        Delay Time (1-60000):
+          value: '0'
+          space: 253
+          offset: '0x000005EC'
+        Retrigger:
+          value: '0'
+          space: 253
+          offset: '0x000005EF'
+        Units:
+          value: '0'
+          space: 253
+          offset: '0x000005EE'
+      Event(0):
+        Action:
+          value: '1'
+          space: 253
+          offset: '0x000005F8'
+        Command:
+          value: 02.01.57.00.04.C7.00.6C
+          space: 253
+          offset: '0x000005F0'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.72
+          space: 253
+          offset: '0x00000627'
+        Upon this action:
+          value: '5'
+          space: 253
+          offset: '0x00000626'
+      Event(1):
+        Action:
+          value: '2'
+          space: 253
+          offset: '0x00000601'
+        Command:
+          value: 02.01.57.00.04.C7.00.6D
+          space: 253
+          offset: '0x000005F9'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.73
+          space: 253
+          offset: '0x00000630'
+        Upon this action:
+          value: '6'
+          space: 253
+          offset: '0x0000062F'
+      Event(2):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000060A'
+        Command:
+          value: 02.01.57.00.04.C7.00.6E
+          space: 253
+          offset: '0x00000602'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.74
+          space: 253
+          offset: '0x00000639'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000638'
+      Event(3):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000613'
+        Command:
+          value: 02.01.57.00.04.C7.00.6F
+          space: 253
+          offset: '0x0000060B'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.75
+          space: 253
+          offset: '0x00000642'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000641'
+      Event(4):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x0000061C'
+        Command:
+          value: 02.01.57.00.04.C7.00.70
+          space: 253
+          offset: '0x00000614'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.76
+          space: 253
+          offset: '0x0000064B'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x0000064A'
+      Event(5):
+        Action:
+          value: '0'
+          space: 253
+          offset: '0x00000625'
+        Command:
+          value: 02.01.57.00.04.C7.00.71
+          space: 253
+          offset: '0x0000061D'
+        Indicator:
+          value: 02.01.57.00.04.C7.00.77
+          space: 253
+          offset: '0x00000654'
+        Upon this action:
+          value: '0'
+          space: 253
+          offset: '0x00000653'
+      Input Function:
+        value: '1'
+        space: 253
+        offset: '0x00003288'
+      Line Description:
+        value: T-SL-048048-20/BD-SL-050056-20
+        space: 253
+        offset: '0x000005C6'
+      Output Function:
+        value: '1'
+        space: 253
+        offset: '0x00003286'
+      'Receiving the configured Command (C) event(s) will drive or pulse the line:':
+        value: '0'
+        space: 253
+        offset: '0x00003287'
+      'The configured Indication (P) event(s) will be sent when the line is driven:':
+        value: '0'
+        space: 253
+        offset: '0x00003289'
+  Track Receiver:
+    Circuit(0):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.C0
+        space: 253
+        offset: '0x00001BE0'
+      Remote Mast Description:
+        value: SM-SL-043044-10W
+        space: 253
+        offset: '0x00001BC0'
+    Circuit(1):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.C8
+        space: 253
+        offset: '0x00001C08'
+      Remote Mast Description:
+        value: SM-SL-043044-20W
+        space: 253
+        offset: '0x00001BE8'
+    Circuit(2):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.D0
+        space: 253
+        offset: '0x00001C30'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001C10'
+    Circuit(3):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.D8
+        space: 253
+        offset: '0x00001C58'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001C38'
+    Circuit(4):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.E0
+        space: 253
+        offset: '0x00001C80'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001C60'
+    Circuit(5):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.E8
+        space: 253
+        offset: '0x00001CA8'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001C88'
+    Circuit(6):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.F0
+        space: 253
+        offset: '0x00001CD0'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001CB0'
+    Circuit(7):
+      Link Address:
+        value: 02.01.57.00.04.C7.01.F8
+        space: 253
+        offset: '0x00001CF8'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001CD8'
+  Track Transmitter:
+    Circuit(0):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.00
+        space: 253
+        offset: '0x00001D20'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001D00'
+    Circuit(1):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.08
+        space: 253
+        offset: '0x00001D48'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001D28'
+    Circuit(2):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.10
+        space: 253
+        offset: '0x00001D70'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001D50'
+    Circuit(3):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.18
+        space: 253
+        offset: '0x00001D98'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001D78'
+    Circuit(4):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.20
+        space: 253
+        offset: '0x00001DC0'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001DA0'
+    Circuit(5):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.28
+        space: 253
+        offset: '0x00001DE8'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001DC8'
+    Circuit(6):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.30
+        space: 253
+        offset: '0x00001E10'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001DF0'
+    Circuit(7):
+      Link Address:
+        value: 02.01.57.00.04.C7.02.38
+        space: 253
+        offset: '0x00001E38'
+      Remote Mast Description:
+        value: ''
+        space: 253
+        offset: '0x00001E18'
+producerIdentifiedEvents:
+- 02.01.57.00.04.C7.00.2A
+- 02.01.57.00.04.C7.00.2B
+- 02.01.57.00.04.C7.00.36
+- 02.01.57.00.04.C7.00.37
+- 02.01.57.00.04.C7.00.66
+- 02.01.57.00.04.C7.00.67
+- 02.01.57.00.04.C7.00.72
+- 02.01.57.00.04.C7.00.73
+- 02.01.57.00.04.C7.00.7E
+- 02.01.57.00.04.C7.00.7F
+- 02.01.57.00.04.C7.00.8A
+- 02.01.57.00.04.C7.00.8B
+- 02.01.57.00.04.C7.00.96
+- 02.01.57.00.04.C7.00.97
+- 02.01.57.00.04.C7.00.A2
+- 02.01.57.00.04.C7.00.A3
+- 02.01.57.00.04.C7.00.AE
+- 02.01.57.00.04.C7.00.AF
+- 02.01.57.00.04.C7.00.BA
+- 02.01.57.00.04.C7.00.BB
+- 02.01.57.00.04.C7.00.C2
+- 02.01.57.00.04.C7.00.C2
+- 02.01.57.00.04.C7.00.C2
+- 02.01.57.00.04.C7.01.0A
+- 02.01.57.00.04.C7.01.0A
+- 02.01.57.00.04.C7.01.0A
+- 02.01.57.00.04.C7.01.3A
+- 02.01.57.00.04.C7.01.3A
